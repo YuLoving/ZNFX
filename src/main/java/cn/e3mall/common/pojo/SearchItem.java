@@ -59,8 +59,19 @@ public class SearchItem implements Serializable{
 		this.category_name = category_name;
 	}
 	
+	/*
+	 *写一个图片的方法
+	 * */
 	
-	
+	public String[] getImages(){
+		
+		if(image!=null && !"".equals(image))
+		{
+			String [] strings=image.split(","); //得到图片数组，用逗号分隔
+			return strings;
+		}
+		return null;
+	}
 	
 
 }
