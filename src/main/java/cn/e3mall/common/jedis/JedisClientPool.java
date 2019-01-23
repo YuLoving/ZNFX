@@ -1,10 +1,5 @@
 package cn.e3mall.common.jedis;
 
-
-
-
-
-
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
 
